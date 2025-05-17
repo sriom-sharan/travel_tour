@@ -4,8 +4,8 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="w-full fixed top-0 font-spartan left-0 z-50 h-[100px] bg-background">
-      <div className="max-w-screen-2xl flex flex-wrap h-28 items-center justify-between mx-auto p-4">
+    <nav className="w-full fixed top-0 font-spartan left-0 z-50 h-[80px] bg-background">
+      <div className="max-w-screen-xl flex flex-wrap h-[80px] items-center justify-between mx-auto p-4">
         <a
           href="https://flowbite.com/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
@@ -15,7 +15,7 @@ const Navbar = () => {
             className="h-8"
             alt="Flowbite Logo"
           />
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+          <span className="self-center text-xl  whitespace-nowrap dark:text-white">
             Framing Memories
           </span>
         </a>
@@ -58,7 +58,7 @@ const Navbar = () => {
               <li key={item} className="p-4 md:border-transparent md:p-0 border-b-2 border-b-black">
                 <a
                   href="#"
-                  className="block  px-4 font-normal text-2xl md:border-transparent text-gray-900 md:rounded-sm hover:text-blue-300 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  className="block  px-4 font-normal text-xl md:border-transparent text-gray-900 md:rounded-sm hover:text-blue-300 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   {item}
                 </a>
