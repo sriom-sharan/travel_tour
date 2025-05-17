@@ -52,8 +52,9 @@
   --sidebar-ring: oklch(0.708 0 0);
 }
 
-
-
+body{
+  overflow-x: hidden;
+}
 
 
 @theme {
